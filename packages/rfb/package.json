@@ -1,0 +1,48 @@
+{
+  "name": "@jtkwon/rfb",
+  "version": "0.0.0",
+  "description": "React Form Builder Core",
+  "keywords": [],
+  "author": "jtkwon <jeff.t.kwon@gmail.com>",
+  "license": "ISC",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.es.js",
+  "directories": {
+    "src": "src"
+  },
+  "files": [
+    "dist/*"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jtkwon/rfb.git"
+  },
+  "scripts": {
+    "build": "rollup --config"
+  },
+  "bugs": {
+    "url": "https://github.com/jtkwon/rfb/issues"
+  },
+  "homepage": "https://github.com/jtkwon/rfb#readme",
+  "dependencies": {
+    "@jtkwon/rfb-components": "^0.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@material-ui/core": "^4.11.2",
+    "@material-ui/icons": "^4.11.2",
+    "@rollup/plugin-babel": "^5.2.2",
+    "@rollup/plugin-node-resolve": "^11.0.1",
+    "react": "^17.0.1",
+    "rollup": "^2.36.1"
+  },
+  "peerDependencies": {
+    "@material-ui/core": "4.x",
+    "@material-ui/icons": "4.x",
+    "react": ">=16.x"
+  }
+}
